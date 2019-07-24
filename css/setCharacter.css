@@ -115,20 +115,15 @@
     .slide__heading {
       --delay: 300ms;
       text-transform: uppercase;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       letter-spacing: 0.05em;
     }
 
     .slide__quote {
-      --delay: 420ms;
+      --delay: 540ms;
       font-size: 1.1rem;
       line-height: 1.4;
       letter-spacing: 0.03em;
-    }
-
-    .slide__cite {
-      --delay: 540ms;
-      display: block;
     }
 
     /*
