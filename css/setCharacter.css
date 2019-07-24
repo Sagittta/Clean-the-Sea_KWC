@@ -62,12 +62,13 @@
       justify-content: center;
     }
 
+/*
     .slide__list {
       width: calc(100vw - 40px);
       height: calc(100vw / 2);
       font-family: Lato, sans-serif;
     }
-
+    
     .slide__list::before,
     .slide__list::after {
       content: '';
@@ -78,7 +79,6 @@
       top: 0;
       z-index: 1;
     }
-/*
     .slide__list::before {
       left: 0;
       background: linear-gradient(to right, #141316 60%, transparent);
