@@ -5,13 +5,27 @@
     }
 
     body {
-      background-image: url("../img/wave.png");
+/*      background-image: url("../img/wave.png");
       background-repeat: no-repeat;
       background-attachment: fixed;
       max-width: 100%;
       height: auto;
       background-size: cover;
-      color: #FAFAFA;
+      color: #FAFAFA;   */
+      font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: -1;
+    background: url("../img/wave.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-filter: sepia(0.5);
+            filter: sepia(0.5);
     }
 
     p {
