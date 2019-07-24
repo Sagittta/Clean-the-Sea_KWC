@@ -5,7 +5,7 @@
     }
 
     body {
-      background-color: #3CFBFF;
+      background-color: rgb(106, 196, 231);
       color: #FAFAFA;
     }
 
@@ -15,7 +15,7 @@
     }
 
     img {
-      max-width: 100px;
+      width: 100px;
       height: auto;
     }
 
@@ -52,7 +52,7 @@
       right: 0;
       transform: translate3d(0, -50%, 0) rotate(180deg);
     }
-
+/*
     .wrapper {
       height: 100vh;
       min-height: 600px;
@@ -62,7 +62,6 @@
       justify-content: center;
     }
 
-/*
     .slide__list {
       width: calc(100vw - 40px);
       height: calc(100vw / 2);
