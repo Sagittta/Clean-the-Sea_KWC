@@ -5,7 +5,10 @@
     }
 
     body {
-      background-color: rgb(106, 196, 231);
+      background-image: url("img\wave.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
       color: #FAFAFA;
     }
 
