@@ -101,7 +101,7 @@
       justify-content: center;
     }
 
-    .slide__heading,
+/*    .slide__heading,
     .slide__quote,
     .slide__cite {
       opacity: 0;
@@ -110,7 +110,7 @@
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
 
     .slide__heading {
       --delay: 300ms;
@@ -124,6 +124,12 @@
       font-size: 1.1rem;
       line-height: 1.4;
       letter-spacing: 0.03em;
+    }
+
+    .slide__cite {
+      --delay: 420ms;
+      display: block;
+      font-size: 1.6rem;
     }
 
     /*
