@@ -97,7 +97,7 @@
       justify-content: center;
     }
 
-/*    .slide__heading,
+    .slide__heading,
     .slide__quote,
     .slide__cite {
       opacity: 0;
@@ -106,7 +106,7 @@
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
-    } */
+    }
 
     .slide__heading {
       --delay: 300ms;
