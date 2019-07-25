@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+/*  @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap'); */
 
     * {
       box-sizing: border-box;
@@ -28,7 +28,7 @@
     }*/
 
     body {
-      font-family: "Oswald", sans-serif;
+      font-family: 'a이끌림B', cursive;
       font-weight: 300;
       color: #FAFAFA; 
   }
