@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon"
     href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
   <link rel="mask-icon" type=""
@@ -11,7 +11,7 @@
     color="#111" />
   <title>..캐릭터 선정..</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  
+
   <script src="js/setCharacter.js"></script>
   <link rel="stylesheet" type="text/css" href="css/setCharacter.css">
 </head>
@@ -28,7 +28,13 @@
           </h2>
           <blockquote>
             <cite class="slide__cite">"물개"</cite>
-            <p class="slide__quote">물개는 해양쓰레기로 고통받는 해양 동물 중 하나입니다.</p>
+            <p class="slide__quote">
+              물개는 해양쓰레기로 고통받는 해양 동물 중 하나입니다.
+            </p>
+            <div id="btn_group">
+                <button id="test_btn1">캐릭터 선택</button>
+                <button id="test_btn2">돌아가기</button>
+            </div>
           </blockquote>
         </li>
 
@@ -44,7 +50,7 @@
 
         <li class="slide__item Wallop-item">
           <h2 class="slide__heading">
-            <img src = "img/shrimp.png">
+            <img src="img/shrimp.png">
           </h2>
           <blockquote>
             <cite class="slide__cite">"새우"</cite>
@@ -54,12 +60,12 @@
 
       </ul>
 
-      <button class="button--prev Wallop-buttonPrevious" title="previous">
+      <button class="button--prev Wallop-buttonPrevious" id="arrow" title="previous">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.9 50.2">
           <path d="M25.1 50.2L0 25.1 25.1 0l2.8 2.8L5.7 25.1l22.2 22.2z" /></svg>
       </button>
 
-      <button class="button--next Wallop-buttonNext" title="next">
+      <button class="button--next Wallop-buttonNext" id="arrow2" title="next">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.9 50.2">
           <path d="M25.1 50.2L0 25.1 25.1 0l2.8 2.8L5.7 25.1l22.2 22.2z" /></svg>
       </button>

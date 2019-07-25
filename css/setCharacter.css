@@ -26,23 +26,49 @@
       background-size: cover;
   }
 
-    p {
+  input {
+    width: auto;
+    height: auto;
+  }
+
+#test_btn1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right:-4px;
+}
+#test_btn2{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    margin-left:-3px;
+}
+#btn_group button{
+    border: 1px solid skyblue;
+    background-color: rgba(0,0,0,0);
+    color: skyblue;
+    padding: 5px;
+}
+#btn_group button:hover{
+    color:white;
+    background-color: skyblue;
+}
+  
+  p {
       margin-top: 0;
       margin-bottom: 30px;
     }
-
+    
     img {
       max-width: 100%;
       height: auto;
     }
-
+    
     /* List reset */
     ul {
       padding: 0;
       margin: 0;
     }
 
-    button {
+    #arrow {
       background-color: transparent;
       border: none;
       width: 65px;
@@ -55,10 +81,23 @@
       z-index: 2;
     }
 
+    #arrow2 {
+      background-color: transparent;
+      border: none;
+      width: 65px;
+      padding: 20px;
+      transition: opacity 200ms;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate3d(0, -50%, 0) scaleX(-1);
+      z-index: 2;
+    }
+    
     button svg {
       fill: #FAFAFA;
     }
-
+    
     button:hover,
     button:focus {
       opacity: 0.6;
