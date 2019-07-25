@@ -1,34 +1,15 @@
-/*  @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap'); */
-
-    * {
+  * {
       box-sizing: border-box;
     }
-/*
-    body {
-      background-image: url("../img/wave.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      max-width: 100%;
-      height: auto;
-      background-size: cover;
-      color: #FAFAFA;   
-      font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    z-index: -1;
-    background: url("../img/wave.png") no-repeat center center fixed;
-    background-size: cover;
 
-    }*/
-
+    @font-face { 
+      font-family: 'BBTreeGR'; 
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); 
+      font-weight: normal; 
+      font-style: normal; 
+    }
     body {
-      font-family: 'a이끌림B', cursive;
+      font-family: 'BBTreeGR', serif;
       font-weight: 300;
       color: #FAFAFA; 
   }
