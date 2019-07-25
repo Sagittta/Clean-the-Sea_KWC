@@ -178,6 +178,7 @@ button:focus {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-align: justify;
+  height: 300px;
 }
 
 .slide__cite {
