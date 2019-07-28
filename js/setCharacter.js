@@ -4,10 +4,8 @@ window.console = window.console || function (t) { };
     }
 
 var chracter = "";
-function select(){
-  var animal = document.getElementsByName("animal")[0].id;
+function select(animal){
   alert(animal);
-
   switch(animal) {
     case "seal": character = "seal";
     break;
